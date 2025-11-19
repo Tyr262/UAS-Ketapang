@@ -10,7 +10,7 @@
             <div class="header-navbar">
                 <nav class="navbar">
                     <div class="collapse navbar-collapse" id="main_nav">
-                        @if (count($menu) > 0)
+                        {{-- @if (count($menu) > 0)
                         <ul class="navbar-nav">
                             @foreach ($menu as $item)
                             <li class="nav-item">
@@ -18,7 +18,7 @@
                             </li>
                             @endforeach
                         </ul>
-                        @endif
+                        @endif --}}
                     </div>
                 </nav>
             </div>

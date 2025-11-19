@@ -3,7 +3,7 @@
         <div class="footer-area-content">
             <div class="container">
                 <div class="row ">
-                    @if (count($menu) > 0)
+                    {{-- @if (count($menu) > 0)
                     <div class="col-md-3">
                         <div class="menu">
                             <h6>Menu</h6>
@@ -14,8 +14,8 @@
                             </ul>
                         </div>
                     </div>
-                    @endif
-                    <div class="col-md-6 text-center">
+                    @endif --}}
+                    <div class="col-md-10 text-center mx-auto">
                         <img src="{{ asset("uploads/logo/".$sitesettings->logo_dark) }}" alt="{{ $sitesettings->site_title }}" class="logo-white"/>
                         <p class="text-white text-justify mt-2">{{ $sitesettings->description }}</p>
                     </div>

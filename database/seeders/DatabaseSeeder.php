@@ -26,12 +26,11 @@ class DatabaseSeeder extends Seeder
         // ]);
 
         \App\Models\SiteSetting::create([
-            "site_title" => "Oredoo",
-            "tagline" => "Laravel Blog Project",
-            "description" => "Lorem ipsum dolor, sit amet consectetur adipisicing elit. Porro tenetur non laudantium! Autem, similique. Error quidem sequi adipisci, voluptatem sunt possimus cum. Nisi, nobis quia! Odio, vel similique. Corrupti, a!",
-            "logo_dark" => "logo_dark.png",
+            "site_title" => "InfoTani",
+            "tagline" => "Dari Petani Untuk Petani",
+            "description" => "InfoTani adalah platform edukasi pertanian yang menghubungkan petani dari berbagai daerah untuk saling berbagi pengetahuan, pengalaman, dan inovasi. Dengan semangat “Dari Petani Untuk Petani”, InfoTani hadir sebagai sumber informasi terpercaya seputar teknik budidaya, pupuk, cuaca, hingga harga komoditas, guna mendukung pertanian yang lebih maju, cerdas, dan berkelanjutan.",
             "logo_light" => "logo_light.png",
-            "copyright_text" => "© 2022, Oredoo, All Rights Reserved.",
+            "copyright_text" => "© 2025, InfoTani, All Rights Reserved.",
             "enable_registration" => "1",
         ]);
 
