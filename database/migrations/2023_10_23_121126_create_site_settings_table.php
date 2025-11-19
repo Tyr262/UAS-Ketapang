@@ -15,7 +15,7 @@ return new class extends Migration
             $table->id();
             $table->string("site_title");
             $table->string("tagline");
-            $table->longText("description");
+            $table->text('description')->nullable();
             $table->string("logo_dark");
             $table->string("logo_light");
             $table->longText("copyright_text");
