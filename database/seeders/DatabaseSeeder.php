@@ -30,6 +30,7 @@ class DatabaseSeeder extends Seeder
             "tagline" => "Dari Petani Untuk Petani",
             "description" => "InfoTani adalah platform edukasi pertanian yang menghubungkan petani dari berbagai daerah untuk saling berbagi pengetahuan, pengalaman, dan inovasi. Dengan semangat “Dari Petani Untuk Petani”, InfoTani hadir sebagai sumber informasi terpercaya seputar teknik budidaya, pupuk, cuaca, hingga harga komoditas, guna mendukung pertanian yang lebih maju, cerdas, dan berkelanjutan.",
             "logo_light" => "logo_light.png",
+            "logo_dark" => "logo_dark.png",
             "copyright_text" => "© 2025, InfoTani, All Rights Reserved.",
             "enable_registration" => "1",
         ]);
